@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background-image: url("fotos/logo\ ferreteria.jpg");
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+    background-size: 72%;
+    background-position: 50% 30%;
+}
+
+.titulo{
+    text-decoration: underline;
+    text-shadow: white;
+    background: linear-gradient(rgb(59, 71, 247), rgb(255, 182, 45));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(193, 193, 193, 0.81);
+}
+
+.sub{
+    text-align: center;
+    color: rgb(130, 130, 130);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.63);
+}
+
+.zero{
+    text-decoration: underline;
+    background: linear-gradient(rgb(59, 71, 247), rgb(255, 182, 45));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(193, 193, 193, 0.81);
+}
+
+.container{
+  width: 150px;
+  padding: 10px;
+  background-color: #034a79;
+  box-shadow: 0 2px 4px rgb(246, 139, 0);
+  border-radius: 20px;
+  color: white;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #428bca;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: orange;
+}
